@@ -82,7 +82,7 @@ class Game extends React.Component {
     const draw = current.squares.some(element => element===null)
 
     const moves = history.map((step, move) => {
-      const desc = move ? "Go to move " + move : "go to start"
+      const desc = move ? "Go to move " + move : "Start new game"
 
       return (
         <li key={move}>

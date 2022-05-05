@@ -44,6 +44,16 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
+  }
+
+  .heading {
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    font-size: 60px;
   }
   
   .game-info {
